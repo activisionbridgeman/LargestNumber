@@ -2,10 +2,33 @@
 //
 
 #include <iostream>
+template <size_t n>
+
+float calculateLargestNum(int (&nums)[n]) {
+    int max = nums[0];
+    for (int i = 1; i < n; i++) {
+        if (nums[i] > max) {
+            max = nums[i];
+        }
+    }
+    return max;
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int nums[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+    int nums2[] = { 4, -1, 0, 2 };
+    int nums3[] = { 0 };
+    int nums4[] = { 0, 1 };
+    int nums5[] = { 10, 9, 7, 1 };
+    int nums6[] = { -1 };
+
+    std::cout << calculateLargestNum(nums) << '\n';
+    std::cout << calculateLargestNum(nums2) << '\n';
+    std::cout << calculateLargestNum(nums3) << '\n';
+    std::cout << calculateLargestNum(nums4) << '\n';
+    std::cout << calculateLargestNum(nums5) << '\n';
+    std::cout << calculateLargestNum(nums6) << '\n';
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

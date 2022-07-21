@@ -1,0 +1,4 @@
+﻿  LargestNumber.cpp
+C:\Users\abridgeman\OneDrive - Activision Publishing\Documents\LargestNumber\LargestNumber\LargestNumber\LargestNumber\LargestNumber.cpp(14,12): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+C:\Users\abridgeman\OneDrive - Activision Publishing\Documents\LargestNumber\LargestNumber\LargestNumber\LargestNumber\LargestNumber.cpp(26): message : see reference to function template instantiation 'float calculateLargestNum<10>(int (&)[10])' being compiled
+  LargestNumber.vcxproj -> C:\Users\abridgeman\OneDrive - Activision Publishing\Documents\LargestNumber\LargestNumber\LargestNumber\Debug\LargestNumber.exe
